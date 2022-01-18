@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: Poppins;
+}
+#errorPassword, #errorName, #errorPhone {
+    display: none;
+}
+
+.errorGeneral{
+    border: .5rem solid red;
+}
+
+.good{
+    border: .5rem solid green;
+}
+
+.error{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: .4rem .5rem;
+    padding: 1rem;
+}
